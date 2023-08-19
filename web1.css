@@ -1,0 +1,118 @@
+body{
+		background-image: url(d:\พื้นหลัง.gif);
+	}
+    .p1{
+        font-size: 22px;
+        font-family: impact;
+        font-weight: lighter;
+        color: #f090af;
+        margin-left: 660px;
+        margin-top: -40px;
+        text-align: center;
+        text-shadow: 1px 0px rgb(255, 255, 255);
+        letter-spacing: 1px;
+        outline: none;
+        position: absolute;
+        overflow: hidden;
+    }
+    .p2 button{
+      font-size: 22px;
+      font-family: impact;
+      font-weight: lighter;
+      color: #fcf9fb;
+      margin-left: 50px;
+      margin-top: 30px;
+      text-align: center;
+      text-shadow: 1px 1px rgb(93, 92, 92);
+      letter-spacing: 1px;
+      outline: none;
+      position: absolute;
+      overflow: hidden;
+      box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.974);
+      border-radius: 30px;
+  }
+  .p3 button{
+    font-size: 22px;
+    font-family: impact;
+    font-weight: lighter;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 700px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(93, 92, 92);
+    letter-spacing: 1px;
+    outline: none;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 0px rgba(232, 106, 167, 0.974);
+    border-radius: 10px;
+}
+.p4{
+  font-size: 16px;
+  font-weight:bold;
+  color: #f090af;
+  margin-left: 76px;
+  margin-top: 665px;
+  text-align: center;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 10px;
+}
+    h2{
+      text-align: center;
+      font-style: italic;
+    }
+    .kookie{
+      width: 1480px;
+      height: 55px;
+      margin-top: -8px;
+      margin-left: 25px;
+      background-color: #fff9de;
+      background-image: linear-gradient(45deg, #fff9de 0%, #ffb2df 100%);
+      border-radius: 8px;
+      outline: none;
+      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+    }
+    .container {
+        background-color: #fff;
+        padding: 20px;
+        margin-left: 520px;
+      }
+      .container img{
+        border-radius: 20px;
+      }
+      .question1{
+        text-align: center;
+        font-style: italic;
+        font-size:25px;
+        color: #6d6c6c;
+      }
+      
+      button {
+        display: block;
+        font-size: large;
+        margin: 40px auto;
+        padding: 10px 20px;
+        background-color: #efa5cf;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: #f49ab6;
+        box-shadow: 0 4px 3px 0 rgb(230, 112, 151), 0 4px 3px 0 rgb(240, 121, 121);
+        transform: translateY(-4px);
+      }
+      
+      #result {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+    
+
+

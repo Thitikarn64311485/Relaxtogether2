@@ -1,0 +1,1205 @@
+body {
+    margin-top: 0;
+    /*background-image: url(d:\พื้นหลังปก.gif);
+    background-size:1878px 840px;*/
+    background: fixed;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #e5fafe 50%, #fce9f4 100%);
+  }
+.body1{
+  position: absolute;
+  width: 250px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 726px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 56.1%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  left: 30%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-178%, -50%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 6px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  /*box-shadow: 4px 0px 6px 2px rgba(0, 0, 0, 0.2),0px 0px 7px 0px rgba(0, 0, 0, 0.2);*/
+  box-shadow: 4px 1px 2px rgba(0, 0, 0, 0.3),2px 0px 4px rgba(123, 120, 120, 0.3);
+  background-image: url(d:\ปกหญิง1.gif);
+  background-size: 250px 726px;
+}
+.body2{
+  position: absolute;
+  width: 622px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 321.5px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 43.5%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: 21.1%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 6px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  /*box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้กับรูปภาพทรง */
+  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3),2px 0px 2px rgba(123, 120, 120, 0.3);
+  background-image: url(d:\พื้นหลัง2.gif);
+  background-size: 622px 322px;
+}
+.body3{
+  position: absolute;
+  width: 350px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 402px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 90%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: 48%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 6px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3),2px 0px 2px rgba(123, 120, 120, 0.3);
+  background-image: url(d:\พื้นหลัง2.gif);
+  background-size: 615px 410px;
+}
+.body4{
+  position: absolute;
+  width: 269px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 400px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 90%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: 32.75%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 6px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3),2px 0px 2px rgba(123, 120, 120, 0.3);
+  background-image: url(d:\พื้นหลัง3.gif);
+  background-size:269px 400px;
+}
+.body5{
+  position: absolute;
+  width: 250px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 726px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 56.1%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  left: 87.9%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-178%, -50%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius:6px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.3),2px 0px 2px rgba(123, 120, 120, 0.3);
+  background-image: url(d:\ปกชายใหม่.gif);
+  background-size: 250px 726px;
+}
+.body6{
+  position: absolute;
+  width: 367px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 280px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 39.4%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: -11.5%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 6px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.3),2px 0px 2px rgba(123, 120, 120, 0.3);
+  background-image: url(d:\พื้นหลังเกนชิน.gif);
+  background-size: 367px 280px;
+}
+.body7{
+  width: 367px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 445px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 89%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: -11.5%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 6px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.3),2px 0px 2px rgba(123, 120, 120, 0.3);
+  background-image: url(d:\ปกเกนชิ้นท้าย.gif);
+  background-size: 367px 445px;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+}
+.bodyp2{
+  width: 367px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 270px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: -60%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 70%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  /*z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 58px 28px 58px 28px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 5px 0px rgba(43, 42, 42, 0.3);
+  background-color: #fddaea;
+  background-size: 367px 350px;
+  transition: transform 0.3s ease;
+  border:0px solid #525051;
+  margin: 20px;
+  outline: none;
+  margin-left: 38%; 
+/*}
+img{
+  border:2px solid #6e6c6d;
+  border-radius: 100%; /* กำหนดรูปทรงให้เป็นวงกลม */
+}
+.bodyp3{
+  background-color: #f9dcd3;
+  background-image: linear-gradient(90deg, #f9dcd3 0%, #f7eaf3 50%, #fec9c9 100%);
+  width: 250px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 60px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 302%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left:-115%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  border-radius: 24px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  border:0px solid #d2d2d2;
+  cursor: pointer;
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  outline: none;
+  transition: transform 0.6s ease;
+}
+.bodyp3 img{
+  width: 45px;
+  height: 45px;
+  margin-top: 8px;
+  margin-left: 17px;
+  border-radius: 7px;
+}
+.tat1{
+  font-size: 22px;
+  margin-top: -43px;
+  font-family: impact;
+  font-weight: lighter;
+  margin-left: 85px;
+  color: #536faa;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: transform 0.6s ease;
+}
+.tat1:hover,.tat1:focus {
+  color: #ec7676;
+  text-shadow: #d0c394;
+  transform: translateX(-5px);
+}
+.k3 img{
+  width: 45px;
+  height: 45px;
+  margin-top: 8px;
+  margin-left: 17px;
+  border-radius: 7px;
+}
+.tat2{
+  font-size: 22px;
+  margin-top: -43px;
+  font-family: impact;
+  font-weight: lighter;
+  margin-left: 85px;
+  color: #536faa;
+  letter-spacing: 1px;
+  transition: transform 0.6s ease;
+  cursor: pointer;
+}
+.tat2:hover {
+  color: #bfa64b;
+  text-shadow: #d0c394;
+  transform: translateX(-5px);
+}
+.k4 img{
+  width: 45px;
+  height: 45px;
+  margin-top: 8px;
+  margin-left: 17px;
+  border-radius: 7px;
+}
+.tat3{
+  font-size: 22px;
+  margin-top: -43px;
+  font-family: impact;
+  font-weight: lighter;
+  margin-left: 85px;
+  color: #536faa;
+  letter-spacing: 1px;
+  transition: transform 0.6s ease;
+}
+.tat3:hover,.tat3:focus {
+  color: #bfa64b;
+  text-shadow: #d0c394;
+  transform: translateX(-5px);
+}
+.k5 img{
+  width: 45px;
+  height: 45px;
+  margin-top: 8px;
+  margin-left: 17px;
+  border-radius: 7px;
+}
+.tat4{
+  font-size: 22px;
+  margin-top: -43px;
+  font-family: impact;
+  font-weight: lighter;
+  margin-left: 85px;
+  color: #536faa;
+  letter-spacing: 1px;
+  transition: transform 0.6s ease;
+}
+.tat4:hover,.tat4:focus {
+  color: #66b5cf;
+  text-shadow: #d0c394;
+  transform: translateX(-5px);
+}
+.k3{
+  /*position: absolute;*/
+  background-color: #f9dcd3;
+  background-image: linear-gradient(90deg, #f9dcd3 0%, #f7eaf3 50%, #fec9c9 100%);
+  width: 250px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 60px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: 1.5%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 160%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 24px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+  cursor: pointer;
+}
+.k4{
+  background-color: #f9dcd3;
+  background-image: linear-gradient(90deg, #f9dcd3 0%, #f7eaf3 50%, #fec9c9 100%);
+  width: 250px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 60px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: -25.5%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 428%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 24px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+  cursor: pointer;
+}
+.k5{
+  background-color: #f9dcd3;
+  background-image: linear-gradient(90deg, #f9dcd3 0%, #f7eaf3 50%, #fec9c9 100%);
+  width: 250px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 60px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: -24%;/* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 538%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 24px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+  cursor: pointer;
+}
+.k6{
+  background-color: #f9dcd3;
+  background-image: linear-gradient(90deg, #f9dcd3 0%, #f7eaf3 50%, #fec9c9 100%);
+  width: 80px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 80px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: 70%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 540%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 50%; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+}
+.k7{
+  background-color: #f9dcd3;
+  background-image: linear-gradient(90deg, #f9dcd3 0%, #f7eaf3 50%, #fec9c9 100%);
+  width: 260px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 30px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: 350%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left:90%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 8px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+}
+.k8{
+  background-color: #f9dcd3;
+  background-image: linear-gradient(90deg, #f9dcd3 0%, #f7eaf3 50%, #fec9c9 100%);
+  width: 260px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 30px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: 14%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 110%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 8px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+}
+.k9{
+  background-color: #f9dcd3;
+  background-image: linear-gradient(90deg, #f9dcd3 0%, #f7eaf3 50%, #fec9c9 100%);
+  width: 260px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 30px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: 14%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 90%;/* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 8px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+}
+.k10{
+  background-color: #d0fff9;
+  background-image: linear-gradient(90deg, #d0fff9 0%, #bdcaff 46%, #ffffff 100%);
+  width: 80px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 80px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: 79.5%;/* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 652.5px; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 24px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+}
+.k11{
+  background-color: #d0fff9;
+  background-image: linear-gradient(90deg, #d0fff9 0%, #bdcaff 46%, #ffffff 100%);
+
+  width: 80px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 80px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: -31.5%;/* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 535px;/* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 24px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+}
+.k12{
+  background-color: #d0fff9;
+  background-image: linear-gradient(90deg, #d0fff9 0%, #bdcaff 46%, #ffffff 100%);
+
+  width: 80px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 80px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: -32.9%;/* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 773px; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 24px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+}
+.k13{
+  background-color: #d0fff9;
+  background-image: linear-gradient(90deg, #d0fff9 0%, #bdcaff 46%, #ffffff 100%);
+
+  width: 80px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 80px; /* กำหนดขนาดของรูปภาพทรง */
+  margin-top: -32.2%;/* แนวตั้งของตำแหน่งรูปภาพทรง */
+  margin-left: 893.8px;/* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+  border-radius: 24px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 2px 0px rgba(57, 56, 56, 0.3);
+  transition: transform 0.3s ease;
+  border:0px solid #d2d2d2;
+}
+.moving-text {
+  background-color: #ffa3ca;
+  border:0px solid #6a6a6a;
+  color: #fff;
+  text-shadow: 1px 1px rgb(79, 77, 77);
+  box-shadow: 2px 2px 2px 0px rgb(206, 118, 151), 1px 3px 5px 0 rgb(255, 246, 246);
+  font-size: 25px;
+  font-weight:lighter;
+  font-family:impact;
+  border-radius: 50px;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  position: absolute;
+  transform: translate(10%, 50%);
+  transition: transform 3s ease;
+}
+.moving-text:hover,.moving-text:focus {
+  color: #fc82c1;
+  text-shadow: #d0c394;
+  transform: translateY(-1px);
+}
+  /*animation: moveText 2s linear infinite; /* กำหนดให้ใช้ animation ชื่อ moveText */
+
+
+/*@keyframes moveText {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }*/
+  h1{
+    font-size: 30px;
+    color: #fff;
+    font-family: Impact, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    margin-left:-820px;
+    text-shadow: 1px 1px rgb(88, 88, 88);
+    margin: 6px;
+    padding: 5px;
+  }
+  h2{
+    color: #fe97c2;
+    font-size: 35px;
+    font-family: impact;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px rgb(255, 243, 243);
+    text-align: center;
+  }
+  h3{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px rgb(88, 88, 88);
+    text-align: center;
+
+  }
+  h4{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px rgb(88, 88, 88);
+    text-align: center;
+
+  }
+  h5{
+    color: #887e86;
+    font-size: 18px;
+    text-align: center;
+    margin-top:11px;
+    /*text-shadow: 0px 0px rgb(40, 38, 38);*/
+  }
+  .pp{
+    text-align: center;
+    align-items: center;
+    color: #fffdfd;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 0px rgb(77, 75, 75);
+  }
+  .frame {
+    width: 99.4%;
+    height: 110%;
+    border: 8px solid #fec6d9; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+    margin-top: 2px;
+  }
+  h6{
+    font-size: 20px;
+    color: #ffa3ca;
+    font-weight: 200px;
+    margin-top: 170px;
+    text-align: center;
+    text-shadow: 1px 0px rgb(30, 29, 29);
+    letter-spacing: 1px;
+  } 
+  .cute-box {
+    background-color: #e5a4bf;
+    background-image: url(d:\พื้นหลัง.gif);
+    width:310px;
+    height: 170px;
+    border-radius: 12px;
+    background-color: #faf2f1;
+    box-shadow: 0px 0px 4px 0px rgb(255, 255, 255);
+    padding: 20px;
+    max-width: 380px;
+    margin-bottom: 28px;
+    margin-top: 28px;
+    border-radius: 90px 120px;
+    transition: transform 0.3s ease;
+     animation: moveD 2s linear infinite alternate;
+
+     border: 1px solid #ffa3ca;
+    border-top-width: 5px;
+    border-right-width: 5px;
+}
+@keyframes moveD {
+  from {
+    transform: translateY(0);
+    /*left: 0;*/
+  }
+  to {
+    transform: translateY(20px);
+    /*left: calc(100% - 100px); /* ตำแหน่งขวาสุด */
+  }
+  }
+  .navbar {
+    background-color: #ffa3ca;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    /*box-shadow: 0 5px 5px rgba(17, 16, 16, 0.1);*/
+    box-shadow: 2px 2px 2px 0px rgb(206, 118, 151), 1px 5px 5px 0 rgb(255, 246, 246);
+    border-radius: 12px;
+  }
+  .left-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+  
+  .left-section img {
+    width: 100px;
+    height: 100px;
+    margin-right: 2px;
+    border-radius: 12px;
+  }
+  
+  .left-section h1 {
+    margin-top: 0px;
+  }
+  
+  .right-section ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .right-section li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  
+  .right-section li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .right-section li a:hover {
+    text-decoration: underline;
+  }
+  button{
+    background-color: #ffa3ca;
+    color: #fff;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    border-radius: 32px;
+    margin-right:10px;
+    box-shadow: 2px 2px 3px 0px rgb(206, 118, 151), 1px 1px 4px 0 rgb(255, 253, 253);
+    border: none;
+  }
+  .clip{
+    color: #fbf2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right:680px;
+    margin-left: 680px;
+}
+  button:hover {
+    box-shadow: 0 3px 3px 0 rgb(251, 229, 236), 1px 3px 3px 0 rgb(243, 220, 232);
+    transform: translateY(-4px);
+  }
+  .page {/*ปรับขนาดหน้า*/
+    height: 117vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s;
+    opacity: 0;
+    margin-top:40px;
+  }
+  .divider {
+    width: 100.5%;
+    height: 19px; /* ความสูงของที่คั่น */
+    background-image: url(d:\ที่คั่นพื้นหลังขาว.gif); /* สีของที่คั่น */
+    background-size:cover;
+    margin-top:140px;
+    border-radius: 4px;
+    /*box-shadow: 2px 2px 2px 0px rgb(239, 114, 162), 1px 5px 5px 0 rgb(209, 207, 207);*/
+    box-shadow: 0px 0px 5px 0px rgba(123, 120, 122, 0.75),0px 0px 8px 0px rgba(236, 201, 216, 0.75);
+  }
+  p{
+    font-size: 18px;
+    font-style: normal;
+    color: #3e3c3c;
+    font-weight: 300px;
+    text-align: center;
+    align-items: center;
+    margin-top:50px;
+    margin: 20px;
+    width: 160px;
+    height: 300px;
+
+  }
+  .back1 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 20%;
+  }
+  .back2 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 20%;
+  }
+  .back3 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 20%;
+  }
+  .back4 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 20%;
+  }
+  .back5 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 20%;
+  }
+  .back6 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 20%;
+  }
+  .card-row {
+    display: flex;
+    flex-direction: row; /* เรียงในแนวนอน*/
+    padding:3;
+    justify-content: center;
+    display: flex;
+    /*justify-content: space-between; จัดวางระหว่างการ์ดให้กระจายเท่ากัน */
+  }
+  .card-container1 {
+    padding: 7px;
+    perspective: 1000px;
+    width: 200px; /* เพิ่มขนาดคงที่*/
+    height: 600px; /* เพิ่มขนาดคงที่ */
+    display: flex;
+    margin-top: 20px;
+  }
+  .card1 {
+    position: relative;
+    width: 420px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+  }
+  
+  .card1:hover {
+    transform: rotateY(180deg);
+  }
+  .front1, .back1 {
+    position: absolute;
+    width: 200px;
+    height: 600px;
+    backface-visibility: hidden;
+    border-radius: 20px; /* เพิ่มขอบมนให้การ์ดดูน่ารัก*/ 
+    box-shadow: 0px 0px 10px 0px rgba(17, 16, 16, 0.1),1px 5px 5px 0 rgb(156, 153, 153);
+  
+  }
+  
+  .front1 {
+    background-color: #7eb0c9;
+    color: white;
+    z-index: 2;
+  }
+  .back1 {
+    background-color: #ffffff;
+    background-image: linear-gradient(0deg, #ffffff 0%, #e295d5 100%);
+    transform: rotateY(180deg);
+  }
+  .card-container2{
+    padding: 7px;
+    perspective: 1000px;
+    width: 200px; /* เพิ่มขนาดคงที่ */
+    height: 600px; /* เพิ่มขนาดคงที่ */
+    display: flex;
+    margin-top: 75px;
+  }
+  .card2 {
+    position: relative;
+    width: 420px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+  }
+  
+  .card2:hover {
+    transform: rotateY(180deg);
+  }
+  .front2, .back2 {
+    position: absolute;
+    width: 200px;
+    height: 600px;
+    backface-visibility: hidden;
+    border-radius: 20px; /* เพิ่มขอบมนให้การ์ดดูน่ารัก */
+    box-shadow: 0px 0px 5px 0px rgba(75, 74, 74, 0.75);
+  
+  }
+  
+  .front2 {
+    background-color: #7eb0c9;
+    color: white;
+    z-index: 2;
+  }
+  .back2 {
+    background-color: #ffffff;
+    background-image: linear-gradient(0deg, #ffffff 0%, #e295d5 100%);
+    transform: rotateY(180deg);
+  }
+  .card-container3{
+    padding: 7px;
+    perspective: 1000px;
+    width: 200px; /* เพิ่มขนาดคงที่ */
+    height: 600px; /* เพิ่มขนาดคงที่ */
+    display: flex;
+    margin-top: 20px;
+  }
+  .card3 {
+    position: relative;
+    width: 420px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+  }
+  
+  .card3:hover {
+    transform: rotateY(180deg);
+  }
+  .front3, .back3 {
+    position: absolute;
+    width: 200px;
+    height: 600px;
+    backface-visibility: hidden;
+    border-radius: 20px; /* เพิ่มขอบมนให้การ์ดดูน่ารัก */
+    box-shadow: 6px 15px 10px 6px rgba(17, 16, 16, 0.1),2px 5px 5px 0 rgb(156, 153, 153);
+  
+  }
+  
+  .front3 {
+    background-color: #7eb0c9;
+    color: white;
+    z-index: 2;
+  }
+  .back3 {
+    background-color: #ffffff;
+    background-image: linear-gradient(0deg, #ffffff 0%, #e295d5 100%);
+
+    transform: rotateY(180deg);
+  }
+.card-container4{
+  padding: 7px;
+  perspective: 1000px;
+  width: 200px; /* เพิ่มขนาดคงที่ */
+  height: 600px; /* เพิ่มขนาดคงที่ */
+  display: flex;
+  margin-top: 20px;
+}
+.card4 {
+  position: relative;
+  width: 420px;
+  height: 400px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.card4:hover {
+  transform: rotateY(180deg);
+}
+.front4, .back4 {
+  position: absolute;
+  width: 200px;
+  height: 600px;
+  backface-visibility: hidden;
+  border-radius: 20px; /* เพิ่มขอบมนให้การ์ดดูน่ารัก */
+  box-shadow: 6px 15px 10px 6px rgba(17, 16, 16, 0.1),2px 5px 5px 0 rgb(156, 153, 153);
+}
+
+.front4 {
+  background-color: #7eb0c9;
+  color: white;
+  z-index: 2;
+}
+.back4 {
+  background-color: #ffffff;
+  background-image: linear-gradient(0deg, #ffffff 0%, #e295d5 100%);
+  transform: rotateY(180deg);
+}
+.card-container5{
+  padding: 7px;
+  perspective: 1000px;
+  width: 200px; /* เพิ่มขนาดคงที่ */
+  height: 600px; /* เพิ่มขนาดคงที่ */
+  display: flex;
+  margin-top: 75px;
+}
+.card5 {
+  position: relative;
+  width: 420px;
+  height: 400px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.card5:hover {
+  transform: rotateY(180deg);
+}
+.front5, .back5 {
+  position: absolute;
+  width: 200px;
+  height: 600px;
+  backface-visibility: hidden;
+  border-radius: 20px; /* เพิ่มขอบมนให้การ์ดดูน่ารัก */
+  box-shadow: 6px 15px 10px 6px rgba(17, 16, 16, 0.1),2px 5px 5px 0 rgb(156, 153, 153);
+
+}
+
+.front5 {
+  background-color: #7eb0c9;
+  color: white;
+  z-index: 2;
+}
+.back5 {
+  background-color: #ffffff;
+  background-image: linear-gradient(0deg, #ffffff 0%, #e295d5 100%);
+  transform: rotateY(180deg);
+}
+.card-container6{
+  padding: 7px;
+  perspective: 1000px;
+  width: 200px; /* เพิ่มขนาดคงที่ */
+  height: 600px; /* เพิ่มขนาดคงที่ */
+  display: flex;
+  margin-top: 20px;
+}
+.card6 {
+  position: relative;
+  width: 420px;
+  height: 400px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.card6:hover {
+  transform: rotateY(180deg);
+}
+.front6, .back6 {
+  position: absolute;
+  width: 200px;
+  height: 600px;
+  backface-visibility: hidden;
+  border-radius: 20px; /* เพิ่มขอบมนให้การ์ดดูน่ารัก */
+  box-shadow: 0 10px 9px rgba(17, 16, 16, 0.1);
+}
+
+.front6 {
+  background-color: #7eb0c9;
+  color: white;
+  z-index: 2;
+}
+.back6 {
+  background-color: #ffffff;
+  background-image: linear-gradient(0deg, #ffffff 0%, #e295d5 100%);
+  transform: rotateY(180deg);
+}
+.circle-container2 {
+  position: relative;
+}
+
+.circle2 {
+  width: 65px;
+  height: 65px;
+  background-color: #5bc6ff;
+  background-image: linear-gradient(160deg, #5bc6ff 0%, #c0f7f4 50%, #ffffff 100%);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1),0 2px 2px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border:2px solid #fff8fb;
+  margin-top:1428px;
+  right:92.1%;
+  border-radius: 50%;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+@keyframes moveUpDown {
+  from {
+    transform: translateY(0);
+    /*left: 0;*/
+  }
+  to {
+    transform: translateY(-3px);
+    /*left: calc(100% - 100px); /* ตำแหน่งขวาสุด */
+  }
+}
+.message-box2 {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  top: 1520px;
+  margin-left:-20%;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  opacity: 0;
+  transition: linear 0.0s ease, opacity 0.0s ease;
+}
+
+.message-box2 p {
+  margin: 0;
+}
+
+.show-message2 {
+  left: 40%;
+  opacity: 2;
+}/*สิ้นสุด*/
+.circle-container3 {
+  position: relative;
+}
+
+.circle3 {
+  width: 65px;
+  height: 65px;
+  background-color: #7788e3;
+  background-image: linear-gradient(43deg, #7788e3 0%, #df80d9 46%, #FFCC70 100%);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border:2px solid #ffffff;
+  margin-top:1355px;
+  right:52.2%;
+  border-radius: 50%;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+@keyframes moveUpDown {
+  from {
+    transform: translateY(0);
+    /*left: 0;*/
+  }
+  to {
+    transform: translateY(-3px);
+    /*left: calc(100% - 100px); /* ตำแหน่งขวาสุด */
+  }
+}
+.message-box3 {
+  position: absolute;
+  width: 490px;
+  height: 30px;
+  top: 1450px;
+  margin-left:-10%;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  opacity: 0;
+  transition: linear 0.0s ease, opacity 0.0s ease;
+}
+
+.message-box3 p {
+  margin: 0;
+}
+
+.show-message3{
+  left: 50%;
+  opacity: 2;
+}/*สิ้นสุด*/
+.circle-container4 {
+  position: relative;
+}
+
+.circle4 {
+  width: 65px;
+  height: 65px;
+  background-color: #7788e3;
+  background-image: linear-gradient(43deg, #7788e3 0%, #df80d9 46%, #FFCC70 100%);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border:2px solid #fffafd;
+  margin-top:1355px;
+  right:44.2%;
+  border-radius: 50%;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+@keyframes moveUpDown {
+  from {
+    transform: translateY(0);
+    /*left: 0;*/
+  }
+  to {
+    transform: translateY(-3px);
+    /*left: calc(100% - 100px); /* ตำแหน่งขวาสุด */
+  }
+}
+.message-box4 {
+  position: absolute;
+  width: 521px;
+  height: 30px;
+  top: 1453px;
+  margin-left: -20%;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  opacity: 0;
+  transition: linear 0.0s ease, opacity 0.0s ease;
+}
+
+.message-box4 p {
+  margin: 0;
+}
+
+.show-message4{
+  left: 60%;
+  opacity: 2;
+}/*สิ้นสุด*/
+.circle-container5 {
+  position: relative;
+}
+
+.circle5 {
+  width: 65px;
+  height: 65px;
+  background-color: #5bc6ff;
+  background-image: linear-gradient(160deg, #5bc6ff 0%, #c0f7f4 50%, #ffffff 100%);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border:2px solid #fffbfd;
+  margin-top:1355px;
+  right:36.1%;
+  border-radius: 50%;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+ 
+}
+@keyframes moveUpDown {
+  from {
+    transform: translateY(0);
+    /*left: 0;*/
+  }
+  to {
+    transform: translateY(-10px);
+    /*left: calc(100% - 100px); /* ตำแหน่งขวาสุด */
+  }
+}
+.message-box5 {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  top: 1450px;
+  margin-left: -30%;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  opacity: 0;
+  transition: linear 0.0s ease, opacity 0.0s ease;
+}
+
+.message-box5 p{
+  margin: 0;
+}
+
+.show-message5{
+  left: 70%;
+  opacity: 2;
+}
+@media (max-width: 768px) {
+  .right-section{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .clip{
+    display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+  }
+  .body7{
+    left: 560px;
+    top:90.1%;
+    height: 428px;
+    position: absolute;
+    display: flex;
+  }
+  .body6{
+    top: 40.8%;
+    left: 560px;
+    position: absolute;
+    display: flex;
+  }
+  .body5{
+    width: 490px;
+    left: 997px;
+    position: absolute;
+    display: flex;
+  }
+  .body4{
+    width:50px;
+    left: 400px;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+  }
+  .body3{
+    width: 20px;
+    left: 400px;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+  }
+  .body2{
+    width: 10px;
+    left: 430px;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+  }
+  .body1{
+    left: 458px;
+    display: flex;
+    overflow: hidden;
+  }
+  .divider {
+    margin-top: 7px;
+  }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+

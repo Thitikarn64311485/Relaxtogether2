@@ -1,0 +1,722 @@
+body {
+    margin: 3px;
+    padding: 5px;
+    background: fixed;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #d3f7fe 50%, #fce3f2 100%);
+}
+.ope{
+    font-size: 25px;
+    margin-top: 10px;
+    padding: -5px;
+    color:#fffefe;
+    font-weight: bold;
+    cursor: grab;
+    text-shadow: 1px 1px  rgb(181, 178, 178);
+    font-family:serif;
+    letter-spacing: 0px;
+    
+}
+.body1{
+    position: absolute;
+    width: 1440px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 72px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 5.5%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: -45.4%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 12px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.3);
+    background-image: url(d:\พื้นขอบ.gif);
+    background-size: 1640px 72px;
+    
+}
+.photo{
+    width: 45px;
+    height: 45px;
+    background-image: url(d:\โลโก้ใหม่.png);
+    background-size: 45px 45px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border:2px solid #ffffff;
+    margin-top:-5px;
+    right:92%;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    position: absolute; 
+    overflow: hidden;
+}
+.photo1{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(d:\ปุ่มถัดไป.gif);
+  background-size: 50px 50px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border:2px solid #ffffff;
+  margin-top:1137px;
+  right:31%;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.6s ease;
+}
+.photo1:hover {
+  box-shadow: 0 3px 3px 0 rgb(244, 204, 217), 1px 3px 3px 0 rgb(243, 220, 232);
+  transform: translateY(-3px);
+}
+.photo2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(d:\โลโก้ใหม่.png);
+  background-size: 50px 50px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border:3px solid #ffffff;
+  margin-top:833px;
+  right:15%;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.6s ease;
+}
+.photo2:hover {
+  box-shadow: 0 3px 3px 0 rgb(244, 204, 217), 1px 3px 3px 0 rgb(243, 220, 232);
+  transform: translateY(-3px);
+}
+.photo3{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(d:\ปุ่มถัดไป.gif);
+  background-size: 50px 50px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border:2px solid #ffffff;
+  margin-top:1420px;
+  right:31%;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.6s ease;
+}
+.photo3:hover {
+  box-shadow: 0 3px 3px 0 rgb(244, 204, 217), 1px 3px 3px 0 rgb(243, 220, 232);
+  transform: translateY(-3px);
+}
+.photo4{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(d:\ปุ่มถัดไป.gif);
+  background-size: 50px 50px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border:2px solid #ffffff;
+  margin-top:1715px;
+  right:31%;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.6s ease;
+}
+.photo4:hover {
+  box-shadow: 0 3px 3px 0 rgb(244, 204, 217), 1px 3px 3px 0 rgb(243, 220, 232);
+  transform: translateY(-3px);
+}
+.photo5{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(d:\ปุ่มถัดไป.gif);
+  background-size: 50px 50px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border:2px solid #ffffff;
+  margin-top:2014px;
+  right:31%;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.6s ease;
+}
+.photo5:hover {
+  box-shadow: 0 3px 3px 0 rgb(244, 204, 217), 1px 3px 3px 0 rgb(243, 220, 232);
+  transform: translateY(-3px);
+}
+.bo1{
+    position: absolute;
+    width: 5px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 40px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 78.5%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 88%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 2px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    /*box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);*/
+    background-color: #f5b3ab;
+    background-size: 550px 150px;
+    border:2px solid #ffffff;
+}
+.sidenav li{
+    border:2px solid #fff8fb;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.body2{
+    position: absolute;
+    width: 300px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 200px; /* กำหนดขนาดของรูปภาพทรง */
+    top: -14%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 40%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */ /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 16px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    background-image: url(d:\ปกใหม่.gif);
+    background-size: 300px 200px;
+    transition: transform 0.4s ease;
+    animation: moveUpDown 2s linear infinite alternate;
+}
+@keyframes moveUpDown {
+  from {
+    transform: translateY(0);
+    /*left: 0;*/
+  }
+  to {
+    transform: translateY(20px);
+    /*left: calc(100% - 100px); /* ตำแหน่งขวาสุด */
+  }
+  }
+.body3{
+    position: absolute;
+    width: 200px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 180px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 142%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 69%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius:20px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    background-image: url(d:\เครื่องดื่ม.gif);
+    background-size: 200px 180px;
+}
+.bodyk1{
+    position: absolute;
+    width: 550px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 150px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 140.8%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 13.5%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 38px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 3px 0px rgba(62, 62, 62, 0.3);
+    background-color: #f9e1df;
+    background-size: 550px 150px;
+    border:2px solid #ffffff;
+}
+.bodyk2{
+    position: absolute;
+    width: 550px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 150px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 176%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 13.5%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 40px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+    background-color: #f9e1df;
+    background-size: 200px 180px;
+    border:2px solid #ffffff;
+}
+.bodyk3{
+    position: absolute;
+    width: 550px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 150px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 212%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 13.5%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 40px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+    background-color: #f9e1df;
+    background-size: 200px 180px;
+    border:2px solid #ffffff;
+}
+.bodyk4{
+    position: absolute;
+    width: 550px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 150px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 249%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 13.5%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 40px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+    background-color: #f9e1df;
+    background-size: 200px 180px;
+    border:2px solid #ffffff;
+}
+.bodyk5{
+    position: absolute;
+    width: 1529px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 200px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 300%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: -50.8%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 16px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    background-color: #fce8e7;
+    background-size: 200px 180px;
+    border:2px solid #ffffff;
+    border-radius:0px 60% 0px 0px; /* ปรับความโค้งและขนาดของขอบโค้ง */
+    overflow: hidden;
+    cursor: pointer;
+     outline: none;
+}
+.bodyk5 img{
+  width: 60px;
+  height: 60px;
+  margin-left: -100px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden
+
+}
+.tk5{
+  font-family: impact;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 138px;
+  text-align: center;
+  color: #373636;
+}
+.cat{
+  width: 50px;
+  height: 50px;
+  background-image: url(d:\โลโก้ใหม่.png);
+  background-size: 50px 50px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border:2px solid #ffffff;
+  margin-top:1434px;
+  right:48.5%;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.6s ease;
+}
+.bodyk6{
+    position: absolute;
+    width: 100px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 500px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 70%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 92.5%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 12px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.3);
+    background-image: url(d:\ที่คั่นหนังสือ.gif);
+    background-size: 100px 600px;
+    border:2px solid #fffdfe;
+}
+.body4{
+    position: absolute;
+    width: 200px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 180px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 177%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 69%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 22px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    background-image: url(d:\อาหารgif.gif);
+    background-size: 200px 180px;
+}
+.body5{
+    position: absolute;
+    width: 200px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 180px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 213%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 69%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 22px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    background-image: url(d:\ผ่อนคลาย.gif);
+    background-size: 200px 180px;
+}
+.body6{
+    position: absolute;
+    width: 200px; /* กำหนดขนาดของรูปภาพทรง */
+    height: 180px; /* กำหนดขนาดของรูปภาพทรง */
+    top: 250%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+    right: 69%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+    transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    z-index: -1; /* กำหนดให้รูปภาพทรงอยู่ด้านหลังของข้อมูล */
+    border-radius: 22px; /* กำหนดรูปทรงให้เป็นวงกลม */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    background-image: url(d:\ท่องเที่ยว.gif);
+    background-size: 200px 180px;
+}
+.body7{
+  position: absolute;
+  width: 90px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 90px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 120%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: 14%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  border-radius: 22px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  background-image: url(d:\ชินจังใหม่.png);
+  background-size: 90px 90px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 2s ease;
+}
+.body7:hover {
+  box-shadow: 0 3px 3px 0 rgb(242, 219, 226), 1px 3px 3px 0 rgb(243, 220, 232);
+  transform: translateX(-120%);
+}
+.body8{
+  position: absolute;
+  width: 90px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 90px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 120%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: 7%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  border-radius: 22px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  background-image: url(d:\ชินจังกิน2.png);
+  background-size: 90px 90px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.9s ease;
+}
+.body8:hover {
+  box-shadow: 0 3px 3px 0 rgb(246, 224, 231), 1px 3px 3px 0 rgb(243, 220, 232);
+  transform: translateY(-80px);
+}
+.body9{
+  position: absolute;
+  width: 90px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 90px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 134%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: 14%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  border-radius: 22px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  background-image: url(d:\ชินจังกิน3.png);
+  background-size: 90px 90px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 2s ease;
+}
+.body9:hover {
+  box-shadow: 0 3px 3px 0 rgb(245, 227, 233), 1px 3px 3px 0 rgb(243, 220, 232);
+  transform: translateX(-90px);
+}
+.body10{
+  position: absolute;
+  width: 90px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 90px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 134%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: 7%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  border-radius: 22px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  background-image: url(d:\เนเน่.png);
+  background-size: 90px 90px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  overflow: hidden;
+  transition: transform 0.8s ease;
+}
+.body11{
+  position: absolute;
+  width: 270px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 270px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 134%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: -2%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1;  
+  border:4px solid #fffcfc;
+  border-radius: 35px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  background-color: #fce3f2;
+  background-size: 90px 90px;
+  transition: transform 0.8s ease;
+}
+.body12{
+  position: absolute;
+  width: 270px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 60px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 154%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: -2%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+    
+  border:2px solid #fffcfc;
+  border-radius: 22px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  background-color: #fce3f2;
+  background-size: 90px 90px;
+  transition: transform 0.8s ease;
+}
+.body12 img{
+  width: 40px;
+  height: 40px;
+  border-radius:50% 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+}
+.body13{
+  position: absolute;
+  width: 270px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 60px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 166%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: -2%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1;  
+  border:2px solid #fffcfc;
+  border-radius: 22px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+  background-color: #fce3f2;
+  background-size: 90px 90px;
+  transition: transform 0.8s ease;
+}
+.body13 img{
+  width: 40px;
+  height: 40px;
+  border-radius:50% 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+}
+.body10:hover {
+  box-shadow: 0 3px 3px 0 rgb(241, 218, 225), 1px 3px 3px 0 rgb(243, 220, 232);
+  transform: translateY(-80px);
+}
+p{
+    margin-top: 29px;
+    text-indent:180px;
+    right:20px;
+    font-size: 19px;
+    color: #4e4d4d;
+   } 
+h1{
+ margin-top: -50px;
+ text-indent: 183px;
+ right:20px;
+ font-size: 30px;
+ color: #393939;
+ letter-spacing:0.5px
+} 
+
+h2{
+ margin-top: 195px;
+ font-size: 16px;
+ color: #424141;
+ text-align: center;
+} 
+h3{
+    margin-top: 44px;
+    font-size: 22px;
+    color: #38537b;
+    text-indent: 280px;
+    font-weight:bold;
+    letter-spacing:0px;
+    
+   } 
+   button{
+    padding: 10px;
+    font-size: 19px;
+    color: #38537b;
+    font-weight:bold;
+    border-radius: 24px;
+    background-color: #fff;
+    margin-top: 25px;
+    border: none;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* เพิ่มเอฟเฟกต์สโลว์ */
+    transition: box-shadow 0.9s ease; /* เพิ่มเอฟเฟกต์การเปลี่ยนแปลงอย่างนุ่มนวล */
+   }
+   Button:hover,button:focus {
+    background-color: #feb9b2;
+    background-image: linear-gradient(90deg, #feb9b2 0%, #f9f0f8 55%, #feadbc 100%);
+    box-shadow: inset 0 -3.25em 0 0 var(--hovered);
+   }
+   .circle-container {
+    position: relative;
+  }
+  h4{
+    margin-top: 21px;
+    padding:2px 34px ;
+    text-indent:19px;
+    font-size: 16px;
+    color: #4a4949;
+    font-weight:lighter;
+    /*border:2px solid #8e8c8c;*/
+    width: 500px;
+    height: 50px;
+    text-align:left;
+    letter-spacing:0.5px
+   }
+  
+  .circle {
+    width: 70px;
+    height: 70px;
+    background-image: url(d:\แถบเมนูกลมแรก.png);
+    background-size: 70px 70px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border:2px solid #ffffff;
+    margin-top:-390px;
+    right:10%;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+    animation: moveUpDown 1s linear infinite alternate;
+  }
+  @keyframes moveUpDown {
+    from {
+      transform: translateY(0);
+      /*left: 0;*/
+    }
+    to {
+      transform: translateY(20px);
+      /*left: calc(100% - 100px); /* ตำแหน่งขวาสุด */
+    }
+  }
+  .message-box {
+    position: absolute;
+    top: 5;
+    left:-4%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    opacity: 0;
+    transition: linear 0.0s ease, opacity 0.0s ease;
+  }
+  
+  .message-box p {
+    margin: 0;
+  }
+  
+  .show-message {
+    left: 130%;
+    opacity: 2;
+  }
+  
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+  .dd{
+    font-size: 45px;
+    font-family: impact;
+    font-weight:lighter;
+    margin-top: -120px;
+    margin-left: 165px;
+    color: #3b3a3a;
+    outline: none;
+    position: absolute;
+    overflow: hidden;
+  }
+  .mes{
+   font-size: 17px;
+   color: #4d6da9;
+   margin-top:-200px;
+   margin-left: 70px;
+   text-shadow: 0 0 3px #fffdfd;
+   cursor: pointer;
+    outline: none;
+    position: absolute;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+  }
+  .mes:hover,.mes:focus {
+    color: #d58787;
+    text-shadow: #67b3c3;
+    transform: translateX(-5px);
+   }
+   .mes1{
+    font-size: 17px;
+    color: #5472aa;
+    margin-top:-200px;
+    margin-left: 70px;
+    text-shadow: 0 0 3px #fffdfd;
+    cursor: pointer;
+     outline: none;
+     position: absolute;
+     overflow: hidden;
+     transition: transform 0.5s ease;
+   }
+   .mes1:hover,.mes1:focus {
+     color: #d58787;
+     text-shadow: #67b3c3;
+     transform: translateX(-5px);
+ }
+  .body14{
+  position: absolute;
+  width: 170px; /* กำหนดขนาดของรูปภาพทรง */
+  height: 720px; /* กำหนดขนาดของรูปภาพทรง */
+  top: 172%; /* แนวตั้งของตำแหน่งรูปภาพทรง */
+  right: -0.5%; /* แนวนอนของตำแหน่งรูปภาพทรง */
+  transform: translate(-50%, -80%); /* จัดให้รูปภาพทรงอยู่ตรงกลางของหน้าจอ */
+  z-index: -1;  
+  border:2px solid #fffcfc;
+  border-radius: 800px 0px 0px 800px; /* กำหนดรูปทรงให้เป็นวงกลม */
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  background-image: url(d:\pngegg.png);
+  background-size: 300px 720px;
+  transition: transform 0.8s ease;
+  animation: moveUpDown 1s linear infinite alternate;
+  overflow: hidden;
+  }
+  .body15 img{
+    width: 60px;
+    height: 60px;
+    margin-top: 1340px;
+    margin-left: -130px;
+    cursor: pointer;
+     outline: none;
+     position: absolute;
+     overflow: hidden;
+  }
+  
